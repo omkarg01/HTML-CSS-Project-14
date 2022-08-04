@@ -5,7 +5,7 @@
 ![hitesh choudhary](https://img.shields.io/badge/Hitesh--Choudhary-Full--stack--JS--bootcamp-red)
 ![HTML & CSS](https://img.shields.io/badge/HTML-CSS-orange)
 
-## Project 14 [Live Link](https://62e43802a1e2a23bd0384f89--chic-figolla-596934.netlify.app/)
+## Project 14 [Live Link](https://dance-og.netlify.app)
 
 -   Skills Gained in this project
     -   Learned to use text-stroke-width to style the text.
