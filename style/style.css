@@ -17,9 +17,9 @@ body {
 }
 
 :root {
-    --grey: #868686;
+    --grey: #8c8b8b;
     --black: #000000;
-    --light-dark: #333333;
+    --light-dark: #343333;
 }
 
 /* ------------------------------ */
@@ -260,4 +260,47 @@ i {
 
 .arrow img {
     height: 10rem;
+}
+
+@media (width <=425px) {
+
+    .navbar .list,
+    .hero .left-section,
+    .media-icons {
+        display: none;
+    }
+
+    .right-section{
+        flex-direction: column;
+    }
+
+    .heading{
+        position: static;
+        /* width: 100vw; */
+        border: 2px solid var(--grey);
+    }
+
+    .services{
+        position: static;
+        border: 2px solid darkred;
+    }
+
+    .quote-section{
+        position: static;
+        /* border: 2px solid darkred; */
+        display: flex;
+    }
+
+    .dance-img{
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .quote-section .arrow {
+        position: static;
+        top: 0;
+        right: 0;
+    }
+
+
 }
