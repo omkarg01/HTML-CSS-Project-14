@@ -33,6 +33,10 @@ body {
     align-items: center;
 }
 
+.fa-solid.fa-bars{
+    display: none;
+}
+
 .navbar .logo img {
     height: 4rem;
     color: var(--black);
@@ -107,7 +111,7 @@ body {
     font-weight: 900;
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--grey);
+    -webkit-text-stroke-color: var(--black);
 }
 
 .heading>h2::after {
@@ -115,7 +119,7 @@ body {
     width: 5rem;
     height: 1rem;
     display: inline-block;
-    border: 2px solid var(--grey);
+    border: 1px solid var(--black);
     margin-bottom: 2.3rem;
 }
 
@@ -215,12 +219,12 @@ ul li span {
 }
 
 .services .line {
-    height: 60rem;
+    height: 30rem;
     width: 1px;
     background-color: var(--grey);
     position: absolute;
     left: 0.7rem;
-    top: 2rem;
+    top: 1.8rem;
 }
 
 /* ------------------------------ */
@@ -266,40 +270,159 @@ i {
 
     .navbar .list,
     .hero .left-section,
-    .media-icons {
+    .navbar .line
+    {
         display: none;
     }
+    .navbar .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+        margin-inline: auto;
+    }
+
+    .navbar .logo img{
+        width: 10rem;
+        height: 4rem;
+    }
+
+    .fa-solid.fa-bars {
+        display: block;
+    }
+
+    .navbar{
+        height: 6rem;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        justify-content: start;
+    }
+
 
     .right-section{
         flex-direction: column;
+        width: 95vw;
+        margin-inline: auto;
+        gap: 3rem;
+    }
+
+    .top {
+        display: flex;
+        width: 100%;
+        margin-inline: auto;
     }
 
     .heading{
         position: static;
-        /* width: 100vw; */
-        border: 2px solid var(--grey);
+        width: 100%;
+        gap: 1rem;
     }
+    .heading > div{
+        margin-left: 0;
+    }
+
+    .heading h2{
+        font-size: 5rem;
+    }
+    .heading>h2::after{
+        /* margin-block: auto; */
+        margin-bottom: 1rem;
+        width: 2.5rem;
+        height: 0.6rem;
+    }
+
+    .heading div{
+        margin-left: 4rem;
+    }
+
+    .heading div p{
+        margin-left:1rem;
+        padding: 0;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        font-weight: 600;
+        padding-top: 1rem;
+    }
+
+    .media-icons {
+        position: static;
+        width: 100%;
+        padding-block: 1rem;
+        gap: 3rem;
+    }
+
+    .btn button{
+        padding: 1rem 2rem;
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+
+
+
 
     .services{
         position: static;
-        border: 2px solid darkred;
+        width: 95vw;
+        margin-inline: auto;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .services ul{
+        margin-bottom: auto;
+        width: 30%;
+    }
+
+    .services ul li{
+        /* padding: 0; */
+        padding-bottom: 1rem;
+    }
+
+    .services .line{
+        /* padding-left: 0; */
+        /* height: ; */
+        top: 1.5rem;
+        height: 15rem;
+        left: 0.5rem;
+    }
+
+    .services ul li p{
+        padding-left: 0.5rem;
+        font-size: 1.2rem;
     }
 
     .quote-section{
         position: static;
-        /* border: 2px solid darkred; */
         display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .quote-section p{
+        font-size: 1.3rem;
+        padding-block: 1rem;
+        font-weight: 500;
+        width: 100%;
     }
 
     .dance-img{
-        height: 10rem;
-        width: 10rem;
+        height: 30rem;
+        width: 100%;
+
+    }
+    .dance-img img{
+        width: 100%;
+        object-position: right;
+        object-fit: cover;
     }
 
     .quote-section .arrow {
-        position: static;
-        top: 0;
-        right: 0;
+        position: absolute;
+        /* display: none; */
+        top: 40rem;
+        left: 3rem;
+        width: fit-content;
     }
 
 
