@@ -421,7 +421,7 @@ i {
     .quote-section .arrow {
         position: absolute;
         /* display: none; */
-        top: 45rem;
+        top: 40rem;
         left: 1.5rem;
         width: fit-content;
         height: 50rem;
