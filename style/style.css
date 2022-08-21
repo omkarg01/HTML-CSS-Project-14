@@ -421,9 +421,14 @@ i {
     .quote-section .arrow {
         position: absolute;
         /* display: none; */
-        top: 40rem;
-        left: 3rem;
+        top: 45rem;
+        left: 1.5rem;
         width: fit-content;
+        height: 50rem;
+    }
+
+    .arrow img{
+        height:20rem;
     }
 
 
