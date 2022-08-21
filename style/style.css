@@ -292,7 +292,7 @@ i {
     }
 
     .navbar{
-        height: 6rem;
+        height: 8rem;
         width: 100vw;
         margin: 0;
         padding: 0;
@@ -304,7 +304,8 @@ i {
         flex-direction: column;
         width: 95vw;
         margin-inline: auto;
-        gap: 3rem;
+        gap: 5rem;
+        margin-top: 3rem;
     }
 
     .top {
